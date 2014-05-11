@@ -1,14 +1,17 @@
+
+## Overview
+
 A simple setup for setting up a virtual machine using vagrant and saltstack.
 
-# Installation
+## Installation
 
-## Vagrant
+### Vagrant
 
 ```bash
 sudo apt-get install vagrant
 ```
 
-## SaltStack
+### SaltStack
 
 ```bash
 sudo add-apt-repository ppa:saltstack/salt
@@ -18,7 +21,7 @@ sudo apt-get install salt-minion
 sudo apt-get install salt-syndic
 ```
 
-# Configuration
+## Configuration
 
 * Edit salt/roots/pillar/users.sls and generate a new password (Default password is "password")
 
@@ -27,14 +30,14 @@ sudo apt-get install salt-syndic
 mkpasswd -m sha-512
 ```
 
-# Starting VM
+## Starting VM
 
 ```bash
 vagrant up
 vagrant provision
 ```
 
-# Reference
+## Reference
 
 * https://docs.vagrantup.com/v2/installation/
 * http://docs.saltstack.com/en/latest/topics/installation/ubuntu.html
