@@ -1,3 +1,5 @@
+A simple setup for setting up a virtual machine using vagrant and saltstack.
+
 # Installation
 
 ## Vagrant
@@ -25,8 +27,14 @@ sudo apt-get install salt-syndic
 mkpasswd -m sha-512
 ```
 
-# Reference
+# Starting VM
 
+```bash
+vagrant up
+vagrant provision
+```
+
+# Reference
 
 * https://docs.vagrantup.com/v2/installation/
 * http://docs.saltstack.com/en/latest/topics/installation/ubuntu.html
