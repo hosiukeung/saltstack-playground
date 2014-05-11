@@ -1,7 +1,7 @@
 
 ## Overview
 
-A simple setup for setting up a virtual machine using vagrant and saltstack.
+A simple setup for starting a virtual machine using Vagrant and SaltStack.
 
 ## Installation
 
